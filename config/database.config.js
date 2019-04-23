@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'mongodb://localhost:27017/zaatar-api'
+    url: 'mongodb+srv://zaatar-admin:cE7qMKajhJgyQvap@zaatar-wazkl.mongodb.net/test?retryWrites=true'
 }

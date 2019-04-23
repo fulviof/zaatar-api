@@ -17,7 +17,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 // Connecting to the database
-mongoose.connect('mongodb+srv://zaatar-admin:<Zaatar2343>@zaatar-wazkl.mongodb.net/test?retryWrites=true', {
+mongoose.connect(dbConfig.url, {
     useNewUrlParser: true
 }).then(() => {
     console.log("Successfully connected to the database");
