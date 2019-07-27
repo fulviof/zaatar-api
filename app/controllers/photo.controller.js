@@ -12,7 +12,7 @@ exports.create = (req, res) => {
   }
 
   const photo = new Photo({
-    data: fs.readFileSync(req.body.img).toString('base64'),
+    data: req.body.img,
     name: req.body.name,
     contentType: 'img/png',
   });
