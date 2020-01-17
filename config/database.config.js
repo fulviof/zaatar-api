@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'mongodb+srv://zaatar-admin:cE7qMKajhJgyQvap@zaatar-wazkl.mongodb.net/test?retryWrites=true'
+    url: 'mongodb+srv://zaatar-admin:QAZxc*96321@zaatar-wazkl.mongodb.net/test?retryWrites=true'
 }
